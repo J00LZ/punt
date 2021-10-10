@@ -1,0 +1,9 @@
+general:
+  verbose: true
+
+files:
+  example:
+    type: link
+    dest: ~/example.txt
+  test.sh:
+    type: exec
