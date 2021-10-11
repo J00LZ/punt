@@ -1,9 +1,10 @@
 general:
-  verbose: true
+  default_tags: [ test ]
 
 files:
   example:
     type: link
     dest: ~/example.txt
+    tags: [ test ]
   test.sh:
     type: exec
